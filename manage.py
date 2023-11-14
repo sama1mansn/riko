@@ -12,7 +12,7 @@ BASEDIR = p.dirname(__file__)
 DEF_WHERE = ["riko", "tests", "examples", "setup.py", "manage.py"]
 
 
-def _upload():
+def _upload():CalledProcessError
     """Upload distribution files"""
     _uploaddir = p.join(BASEDIR, "dist", "*")
     url = "https://upload.pypi.org/legacy/"
